@@ -70,4 +70,38 @@ foreach ( array( 1, 5, 100, 10000 ) as $size ) {
 	echo 'c wins over a: ' . ( $a - $c ) . ' (' . round( $a / $c, 2 ) . 'x faster)' . '<br/>';
 }
 
+/*
+SIZE 1:
+a: 341
+b: 76
+c: 48
+b wins over a: 265 (4.49x faster)
+c wins over b: 28 (1.58x faster)
+c wins over a: 293 (7.1x faster)
+
+SIZE 5:
+a: 369
+b: 63
+c: 45
+b wins over a: 306 (5.86x faster)
+c wins over b: 18 (1.4x faster)
+c wins over a: 324 (8.2x faster)
+
+SIZE 100:
+a: 1002
+b: 72
+c: 43
+b wins over a: 930 (13.92x faster)
+c wins over b: 29 (1.67x faster)
+c wins over a: 959 (23.3x faster)
+
+SIZE 10000:
+a: 109808
+b: 51
+c: 30
+b wins over a: 109757 (2153.1x faster)
+c wins over b: 21 (1.7x faster)
+c wins over a: 109778 (3660.27x faster)
+*/
+
 ?>
